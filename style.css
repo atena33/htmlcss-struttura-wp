@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* inizio regole di debug */
+  height: 200px;
+  background-color: blue;
+  /* fine regole di debug */
+}
+
+main {
+  /* inizio regole di debug */
+  height: 2000px;
+  background-color: green;
+  /* fine regole di debug */
+  margin: 5px;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  /* inizio regole di debug */
+height: 600px;
+background-color: yellow;
+  /* fine regole di debug */
+}
+
+.left {
+  float: left;
+  width: 20%;
+  /* inizio le regole di debug */
+  background-color: red;
+  height: 800px;
+  /* fine regole di debug */
+}
+
+#centro {
+  float: left;
+  width: 45%;
+  margin: 0 2.5%;
+  /* inizio regole di debug */
+  height: 2000px;
+  background-color: grey;
+  /* fine regole di debug */
+}
+
+.right {
+  float: left;
+  width: 30%;
+  /* inizio regole di debug */
+  height: 300px;
+  background-color: purple;
+  /* fine regole di debug */
+}
+
+#left1 {
+  /* inizio regole di debug */
+  height: 400px;
+  /* fine regole di debug */
+  border: solid 2px;
+  margin-bottom: 5px;
+}
+
+#left2 {
+ /* inizio regoe di debug */
+ height: 150px;
+ /* fine regole di debug */
+ border: solid 2px;
+ margin-bottom: 5px;
+}
+
+#left3{
+  /* inizio regole di debug */
+  height: 240px;
+  /* fine regole di debug */
+    border: solid 2px;
+}
+
+#right1 {
+  /* inizio regole di debug */
+  height: 95px;
+  /* fine regole di debug */
+  border: solid 2px;
+  margin-bottom: 5px;
+}
+
+#right2 {
+  /* inizio regole di debug */
+  height: 200px;
+  /* fine regole di debug */
+  border:solid 2px;
+}
+
+#padre-div-footer {
+  height: 500px;
+  border-bottom: solid 2px;
+}
+
+#padre-div-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#finale1 {
+  width: 20%;
+  float: left;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+  margin:0 5% 0 5px;
+}
+
+#finale2 {
+  width: 20%;
+  float:left;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+  margin:0 5% 0 5px;
+}
+
+#finale3 {
+  width: 15%;
+  float:left;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+  margin:0 5% 0 5px;
+}
+
+#finale4 {
+  float:left;
+  width: 28.5%;
+  /* inizio regole di debug */
+  height: 500px;
+  background-color: pink;
+  /* fine regole di debug */
+}
